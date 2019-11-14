@@ -1,0 +1,19 @@
+{
+  "name": "hatchways_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "express": "^4.16.4",
+    "mocha": "^6.1.2",
+    "request": "^2.88.0"
+  },
+  "scripts": {
+    "test": "mocha --exit -R mocha-spec-json-output-reporter --reporter-options fileName=test.json test.js",
+    "start": "node server.js"
+  },
+  "author": "Owen Yeh",
+  "license": "ISC"
+}
